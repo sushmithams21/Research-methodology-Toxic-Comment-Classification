@@ -71,7 +71,7 @@ Prior to the effective training of our machine learning models, it is necessary 
 
 ![Fig 1: Flow of proposed methodology](https://drive.google.com/uc?export=view&id=1xWk8tCzo2CSCnA9ejXNDaU5GvX5klkLK)
             
-            *Fig 1 : Flow of proposed methodology*
+            Fig 1 : Flow of proposed methodology
 
 We proposed an ensemble model of CNN and LSTM classifiers with fastText word embeddings. As per the research conducted, many researchers have claimed that CNN and LSTM give the best accuracy compared other machine learning algorithms. LSTM can effectively preserve the characteristics of historical information in long text sequences whereas CNN can extract the local features of the text .So from analysis we proposed to use the ensemble model aiming to achieve comparatively better performance. We compared the ensemble model accuracy with CNN and LSTM models trained separately. We evaluate the model using F1-score since the dataset is imbalanced along with accuracy .The flow of proposed methodology is shown in Fig 1.
 
