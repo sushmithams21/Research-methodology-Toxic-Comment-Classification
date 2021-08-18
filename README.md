@@ -69,15 +69,15 @@ Prior to the effective training of our machine learning models, it is necessary 
 
 ### Methodology
 
-![Fig 1: Flow of proposed methodology](https://drive.google.com/file/d/1xWk8tCzo2CSCnA9ejXNDaU5GvX5klkLK/view?usp=sharing)
+![Fig 1: Flow of proposed methodology](https://drive.google.com/uc?export=view&id=1xWk8tCzo2CSCnA9ejXNDaU5GvX5klkLK)
 
 We proposed an ensemble model of CNN and LSTM classifiers with fastText word embeddings. As per the research conducted, many researchers have claimed that CNN and LSTM give the best accuracy compared other machine learning algorithms. LSTM can effectively preserve the characteristics of historical information in long text sequences whereas CNN can extract the local features of the text .So from analysis we proposed to use the ensemble model aiming to achieve comparatively better performance. We compared the ensemble model accuracy with CNN and LSTM models trained separately. We evaluate the model using F1-score since the dataset is imbalanced along with accuracy .The flow of proposed methodology is shown in Fig 1.
 
 ### Results
 
-![Table 1](https://drive.google.com/file/d/1BmKNxDjFZz9MTrLLAxHNuqOGCmyJm3x5/view?usp=sharing)
+![Table 1](https://drive.google.com/uc?export=view&id=1BmKNxDjFZz9MTrLLAxHNuqOGCmyJm3x5)
 
-![Table 2](https://drive.google.com/file/d/1oNM9Uum4Q8tOB1QsVFWAIkywl41vJ-tO/view?usp=sharing)
+![Table 2](https://drive.google.com/uc?export=view&id=1oNM9Uum4Q8tOB1QsVFWAIkywl41vJ-tO)
 
 Though the expectation was to get good results for ensemble model(95.53%), CNN (95.83%) performed well compared to other 2 classifiers and ensemble model gave the least accuracy with respect to accuracy metric. But LSTM resulted in good F1-score(0.76754) compared to CNN and LSTM-CNN without data augmentation as shown in Table 1.
 
